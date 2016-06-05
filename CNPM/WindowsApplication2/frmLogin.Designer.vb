@@ -115,6 +115,7 @@ Partial Class frmLogin
         '
         'frmLogin
         '
+        Me.AcceptButton = Me.btnLogin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(400, 250)
@@ -128,6 +129,7 @@ Partial Class frmLogin
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmLogin"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Quản lý nhà sách"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

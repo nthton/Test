@@ -22,4 +22,10 @@
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()
     End Sub
+
+    Private Sub frmLogin_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            btnLogin.PerformClick()
+        End If
+    End Sub
 End Class

@@ -13,6 +13,22 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Ton\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,6 +61,24 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D79A274FD77106E4AEB360A23C95B5FFC1C6EADF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DoAn_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,36 +119,6 @@
     <Compile Include="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu\ucBaoCao.Designer.vb">
-      <DependentUpon>ucBaoCao.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Menu\ucBaoCao.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menu\ucHeThong.Designer.vb">
-      <DependentUpon>ucHeThong.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Menu\ucHeThong.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menu\ucLuuTru.Designer.vb">
-      <DependentUpon>ucLuuTru.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Menu\ucLuuTru.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menu\ucTraCuu.Designer.vb">
-      <DependentUpon>ucTraCuu.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Menu\ucTraCuu.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menu\ucTroGiup.Designer.vb">
-      <DependentUpon>ucTroGiup.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Menu\ucTroGiup.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -130,10 +134,40 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ucBaoCaoNo.Designer.vb">
+      <DependentUpon>ucBaoCaoNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucBaoCaoNo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBaoCaoTon.Designer.vb">
+      <DependentUpon>ucBaoCaoTon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucBaoCaoTon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHoaDon.Designer.vb">
+      <DependentUpon>ucHoaDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucHoaDon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucQuyDinh.Designer.vb">
       <DependentUpon>ucQuyDinh.vb</DependentUpon>
     </Compile>
     <Compile Include="ucQuyDinh.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucThongTinKhachHang.Designer.vb">
+      <DependentUpon>ucThongTinKhachHang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucThongTinKhachHang.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucThongTinSach.Designer.vb">
+      <DependentUpon>ucThongTinSach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucThongTinSach.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
@@ -144,32 +178,34 @@
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\ucBaoCao.resx">
-      <DependentUpon>ucBaoCao.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu\ucHeThong.resx">
-      <DependentUpon>ucHeThong.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu\ucLuuTru.resx">
-      <DependentUpon>ucLuuTru.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu\ucTraCuu.resx">
-      <DependentUpon>ucTraCuu.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu\ucTroGiup.resx">
-      <DependentUpon>ucTroGiup.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucBaoCaoNo.resx">
+      <DependentUpon>ucBaoCaoNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBaoCaoTon.resx">
+      <DependentUpon>ucBaoCaoTon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHoaDon.resx">
+      <DependentUpon>ucHoaDon.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucQuyDinh.resx">
       <DependentUpon>ucQuyDinh.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucThongTinKhachHang.resx">
+      <DependentUpon>ucThongTinKhachHang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucThongTinSach.resx">
+      <DependentUpon>ucThongTinSach.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="DoAn_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -180,6 +216,49 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="ucNhapSach.Designer.vn" />
+    <None Include="ucNhapSach.vn">
+      <SubType>Form</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Available Updates-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banknotes-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Borrow Book-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comments-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contacts-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return Book-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saving Book-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
