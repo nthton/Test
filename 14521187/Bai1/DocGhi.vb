@@ -1,6 +1,6 @@
 ﻿Imports System.Data.OleDb
 Module LT_BANG
-    'Đoạn này em làm theo hướng dẫn trong bộ video LTUDQL1 của thầy Khang.
+    'Đoạn này em làm theo hướng dẫn trong bộ video LTUDQL của thầy Khang.
     Public Chuoi_ket_noi As String = "Provider=Microsoft.Jet.OLEDB.4.0 ; Data Source = QLSV.mdb"
     Public Function DOC(ByVal Chuoi_lenh As String) As DataTable
         Dim kq As New DataTable

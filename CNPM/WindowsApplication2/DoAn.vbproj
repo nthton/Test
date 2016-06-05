@@ -152,6 +152,18 @@
     <Compile Include="ucHoaDon.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucPhieuNhapSach.Designer.vb">
+      <DependentUpon>ucPhieuNhapSach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucPhieuNhapSach.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPhieuThuTien.Designer.vb">
+      <DependentUpon>ucPhieuThuTien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucPhieuThuTien.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucQuyDinh.Designer.vb">
       <DependentUpon>ucQuyDinh.vb</DependentUpon>
     </Compile>
@@ -193,6 +205,12 @@
     <EmbeddedResource Include="ucHoaDon.resx">
       <DependentUpon>ucHoaDon.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucPhieuNhapSach.resx">
+      <DependentUpon>ucPhieuNhapSach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPhieuThuTien.resx">
+      <DependentUpon>ucPhieuThuTien.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucQuyDinh.resx">
       <DependentUpon>ucQuyDinh.vb</DependentUpon>
     </EmbeddedResource>
@@ -216,10 +234,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="ucNhapSach.Designer.vn" />
-    <None Include="ucNhapSach.vn">
-      <SubType>Form</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -259,6 +273,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Saving Book-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="User Controls\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

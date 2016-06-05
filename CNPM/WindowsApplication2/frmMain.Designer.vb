@@ -26,19 +26,6 @@ Partial Class frmMain
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnUser = New System.Windows.Forms.Button()
-        Me.btnDangXuat = New System.Windows.Forms.Button()
-        Me.btnMinimize = New System.Windows.Forms.Button()
-        Me.txtSearch = New System.Windows.Forms.TextBox()
-        Me.btnTroGiup = New System.Windows.Forms.Button()
-        Me.btnBaoCao = New System.Windows.Forms.Button()
-        Me.btnTraCuu = New System.Windows.Forms.Button()
-        Me.btnLuuTru = New System.Windows.Forms.Button()
-        Me.btnHeThong = New System.Windows.Forms.Button()
-        Me.btnClose = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.btnPhieuThuTien = New System.Windows.Forms.Button()
         Me.btnPhieuNhapSach = New System.Windows.Forms.Button()
         Me.btnHoaDonBanSach = New System.Windows.Forms.Button()
@@ -51,7 +38,20 @@ Partial Class frmMain
         Me.btnTTSach = New System.Windows.Forms.Button()
         Me.btnThayDoiQuyDinh = New System.Windows.Forms.Button()
         Me.btnBaoCaoTon = New System.Windows.Forms.Button()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.btnUser = New System.Windows.Forms.Button()
+        Me.btnDangXuat = New System.Windows.Forms.Button()
+        Me.btnMinimize = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.txtSearch = New System.Windows.Forms.TextBox()
+        Me.btnTroGiup = New System.Windows.Forms.Button()
+        Me.btnBaoCao = New System.Windows.Forms.Button()
+        Me.btnTraCuu = New System.Windows.Forms.Button()
+        Me.btnLuuTru = New System.Windows.Forms.Button()
+        Me.btnHeThong = New System.Windows.Forms.Button()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -98,175 +98,6 @@ Partial Class frmMain
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(1024, 70)
         Me.Panel3.TabIndex = 8
-        '
-        'FlowLayoutPanel1
-        '
-        Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Black
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 120)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(1024, 1)
-        Me.FlowLayoutPanel1.TabIndex = 7
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.btnUser)
-        Me.Panel2.Controls.Add(Me.btnDangXuat)
-        Me.Panel2.Controls.Add(Me.btnMinimize)
-        Me.Panel2.Controls.Add(Me.Button3)
-        Me.Panel2.Controls.Add(Me.txtSearch)
-        Me.Panel2.Controls.Add(Me.btnTroGiup)
-        Me.Panel2.Controls.Add(Me.btnBaoCao)
-        Me.Panel2.Controls.Add(Me.btnTraCuu)
-        Me.Panel2.Controls.Add(Me.btnLuuTru)
-        Me.Panel2.Controls.Add(Me.btnHeThong)
-        Me.Panel2.Controls.Add(Me.btnClose)
-        Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1024, 50)
-        Me.Panel2.TabIndex = 5
-        '
-        'btnUser
-        '
-        Me.btnUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnUser.FlatAppearance.BorderSize = 0
-        Me.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUser.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUser.Location = New System.Drawing.Point(824, 26)
-        Me.btnUser.Name = "btnUser"
-        Me.btnUser.Size = New System.Drawing.Size(116, 24)
-        Me.btnUser.TabIndex = 13
-        Me.btnUser.Text = "Hoàng Tôn"
-        Me.btnUser.UseVisualStyleBackColor = False
-        '
-        'btnDangXuat
-        '
-        Me.btnDangXuat.BackColor = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnDangXuat.FlatAppearance.BorderSize = 0
-        Me.btnDangXuat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.btnDangXuat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
-        Me.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDangXuat.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDangXuat.Location = New System.Drawing.Point(941, 26)
-        Me.btnDangXuat.Name = "btnDangXuat"
-        Me.btnDangXuat.Size = New System.Drawing.Size(83, 24)
-        Me.btnDangXuat.TabIndex = 12
-        Me.btnDangXuat.Text = "Đăng xuất"
-        Me.btnDangXuat.UseVisualStyleBackColor = False
-        '
-        'btnMinimize
-        '
-        Me.btnMinimize.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnMinimize.FlatAppearance.BorderSize = 0
-        Me.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMinimize.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMinimize.Location = New System.Drawing.Point(962, 0)
-        Me.btnMinimize.Name = "btnMinimize"
-        Me.btnMinimize.Size = New System.Drawing.Size(24, 24)
-        Me.btnMinimize.TabIndex = 10
-        Me.btnMinimize.Text = "–"
-        Me.btnMinimize.UseVisualStyleBackColor = False
-        '
-        'txtSearch
-        '
-        Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSearch.Location = New System.Drawing.Point(740, 5)
-        Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(167, 19)
-        Me.txtSearch.TabIndex = 8
-        '
-        'btnTroGiup
-        '
-        Me.btnTroGiup.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnTroGiup.FlatAppearance.BorderSize = 0
-        Me.btnTroGiup.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnTroGiup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTroGiup.Location = New System.Drawing.Point(356, 20)
-        Me.btnTroGiup.Name = "btnTroGiup"
-        Me.btnTroGiup.Size = New System.Drawing.Size(85, 30)
-        Me.btnTroGiup.TabIndex = 7
-        Me.btnTroGiup.Text = "Trợ giúp"
-        Me.btnTroGiup.UseVisualStyleBackColor = False
-        '
-        'btnBaoCao
-        '
-        Me.btnBaoCao.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnBaoCao.FlatAppearance.BorderSize = 0
-        Me.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBaoCao.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBaoCao.Location = New System.Drawing.Point(270, 20)
-        Me.btnBaoCao.Name = "btnBaoCao"
-        Me.btnBaoCao.Size = New System.Drawing.Size(85, 30)
-        Me.btnBaoCao.TabIndex = 6
-        Me.btnBaoCao.Text = "Báo cáo"
-        Me.btnBaoCao.UseVisualStyleBackColor = False
-        '
-        'btnTraCuu
-        '
-        Me.btnTraCuu.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnTraCuu.FlatAppearance.BorderSize = 0
-        Me.btnTraCuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnTraCuu.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTraCuu.Location = New System.Drawing.Point(179, 20)
-        Me.btnTraCuu.Name = "btnTraCuu"
-        Me.btnTraCuu.Size = New System.Drawing.Size(85, 30)
-        Me.btnTraCuu.TabIndex = 5
-        Me.btnTraCuu.Text = "Tra cứu"
-        Me.btnTraCuu.UseVisualStyleBackColor = False
-        '
-        'btnLuuTru
-        '
-        Me.btnLuuTru.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnLuuTru.FlatAppearance.BorderSize = 0
-        Me.btnLuuTru.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLuuTru.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLuuTru.Location = New System.Drawing.Point(89, 20)
-        Me.btnLuuTru.Name = "btnLuuTru"
-        Me.btnLuuTru.Size = New System.Drawing.Size(85, 30)
-        Me.btnLuuTru.TabIndex = 4
-        Me.btnLuuTru.Text = "Lưu trữ"
-        Me.btnLuuTru.UseVisualStyleBackColor = False
-        '
-        'btnHeThong
-        '
-        Me.btnHeThong.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnHeThong.FlatAppearance.BorderSize = 0
-        Me.btnHeThong.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnHeThong.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHeThong.Location = New System.Drawing.Point(0, 20)
-        Me.btnHeThong.Name = "btnHeThong"
-        Me.btnHeThong.Size = New System.Drawing.Size(85, 30)
-        Me.btnHeThong.TabIndex = 3
-        Me.btnHeThong.Text = "Hệ thống"
-        Me.btnHeThong.UseVisualStyleBackColor = False
-        '
-        'btnClose
-        '
-        Me.btnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
-        Me.btnClose.FlatAppearance.BorderSize = 0
-        Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
-        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClose.Location = New System.Drawing.Point(992, 0)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(32, 24)
-        Me.btnClose.TabIndex = 2
-        Me.btnClose.Text = "X"
-        Me.btnClose.UseVisualStyleBackColor = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(448, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(157, 24)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Quản lý nhà sách"
         '
         'btnPhieuThuTien
         '
@@ -472,6 +303,75 @@ Partial Class frmMain
         Me.btnBaoCaoTon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.btnBaoCaoTon.UseVisualStyleBackColor = False
         '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Black
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 120)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(1024, 1)
+        Me.FlowLayoutPanel1.TabIndex = 7
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.btnUser)
+        Me.Panel2.Controls.Add(Me.btnDangXuat)
+        Me.Panel2.Controls.Add(Me.btnMinimize)
+        Me.Panel2.Controls.Add(Me.Button3)
+        Me.Panel2.Controls.Add(Me.txtSearch)
+        Me.Panel2.Controls.Add(Me.btnTroGiup)
+        Me.Panel2.Controls.Add(Me.btnBaoCao)
+        Me.Panel2.Controls.Add(Me.btnTraCuu)
+        Me.Panel2.Controls.Add(Me.btnLuuTru)
+        Me.Panel2.Controls.Add(Me.btnHeThong)
+        Me.Panel2.Controls.Add(Me.btnClose)
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1024, 50)
+        Me.Panel2.TabIndex = 5
+        '
+        'btnUser
+        '
+        Me.btnUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnUser.FlatAppearance.BorderSize = 0
+        Me.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUser.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUser.Location = New System.Drawing.Point(824, 26)
+        Me.btnUser.Name = "btnUser"
+        Me.btnUser.Size = New System.Drawing.Size(116, 24)
+        Me.btnUser.TabIndex = 13
+        Me.btnUser.Text = "Hoàng Tôn"
+        Me.btnUser.UseVisualStyleBackColor = False
+        '
+        'btnDangXuat
+        '
+        Me.btnDangXuat.BackColor = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnDangXuat.FlatAppearance.BorderSize = 0
+        Me.btnDangXuat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.btnDangXuat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
+        Me.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDangXuat.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDangXuat.Location = New System.Drawing.Point(941, 26)
+        Me.btnDangXuat.Name = "btnDangXuat"
+        Me.btnDangXuat.Size = New System.Drawing.Size(83, 24)
+        Me.btnDangXuat.TabIndex = 12
+        Me.btnDangXuat.Text = "Đăng xuất"
+        Me.btnDangXuat.UseVisualStyleBackColor = False
+        '
+        'btnMinimize
+        '
+        Me.btnMinimize.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnMinimize.FlatAppearance.BorderSize = 0
+        Me.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMinimize.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMinimize.Location = New System.Drawing.Point(962, 0)
+        Me.btnMinimize.Name = "btnMinimize"
+        Me.btnMinimize.Size = New System.Drawing.Size(24, 24)
+        Me.btnMinimize.TabIndex = 10
+        Me.btnMinimize.Text = "–"
+        Me.btnMinimize.UseVisualStyleBackColor = False
+        '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.White
@@ -483,6 +383,106 @@ Partial Class frmMain
         Me.Button3.Size = New System.Drawing.Size(34, 19)
         Me.Button3.TabIndex = 9
         Me.Button3.UseVisualStyleBackColor = False
+        '
+        'txtSearch
+        '
+        Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSearch.Location = New System.Drawing.Point(740, 5)
+        Me.txtSearch.Name = "txtSearch"
+        Me.txtSearch.Size = New System.Drawing.Size(167, 19)
+        Me.txtSearch.TabIndex = 8
+        '
+        'btnTroGiup
+        '
+        Me.btnTroGiup.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnTroGiup.FlatAppearance.BorderSize = 0
+        Me.btnTroGiup.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTroGiup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTroGiup.Location = New System.Drawing.Point(356, 20)
+        Me.btnTroGiup.Name = "btnTroGiup"
+        Me.btnTroGiup.Size = New System.Drawing.Size(85, 30)
+        Me.btnTroGiup.TabIndex = 7
+        Me.btnTroGiup.Text = "Trợ giúp"
+        Me.btnTroGiup.UseVisualStyleBackColor = False
+        '
+        'btnBaoCao
+        '
+        Me.btnBaoCao.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnBaoCao.FlatAppearance.BorderSize = 0
+        Me.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBaoCao.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBaoCao.Location = New System.Drawing.Point(270, 20)
+        Me.btnBaoCao.Name = "btnBaoCao"
+        Me.btnBaoCao.Size = New System.Drawing.Size(85, 30)
+        Me.btnBaoCao.TabIndex = 6
+        Me.btnBaoCao.Text = "Báo cáo"
+        Me.btnBaoCao.UseVisualStyleBackColor = False
+        '
+        'btnTraCuu
+        '
+        Me.btnTraCuu.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnTraCuu.FlatAppearance.BorderSize = 0
+        Me.btnTraCuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTraCuu.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTraCuu.Location = New System.Drawing.Point(179, 20)
+        Me.btnTraCuu.Name = "btnTraCuu"
+        Me.btnTraCuu.Size = New System.Drawing.Size(85, 30)
+        Me.btnTraCuu.TabIndex = 5
+        Me.btnTraCuu.Text = "Tra cứu"
+        Me.btnTraCuu.UseVisualStyleBackColor = False
+        '
+        'btnLuuTru
+        '
+        Me.btnLuuTru.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnLuuTru.FlatAppearance.BorderSize = 0
+        Me.btnLuuTru.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLuuTru.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLuuTru.Location = New System.Drawing.Point(89, 20)
+        Me.btnLuuTru.Name = "btnLuuTru"
+        Me.btnLuuTru.Size = New System.Drawing.Size(85, 30)
+        Me.btnLuuTru.TabIndex = 4
+        Me.btnLuuTru.Text = "Lưu trữ"
+        Me.btnLuuTru.UseVisualStyleBackColor = False
+        '
+        'btnHeThong
+        '
+        Me.btnHeThong.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnHeThong.FlatAppearance.BorderSize = 0
+        Me.btnHeThong.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnHeThong.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHeThong.Location = New System.Drawing.Point(0, 20)
+        Me.btnHeThong.Name = "btnHeThong"
+        Me.btnHeThong.Size = New System.Drawing.Size(85, 30)
+        Me.btnHeThong.TabIndex = 3
+        Me.btnHeThong.Text = "Hệ thống"
+        Me.btnHeThong.UseVisualStyleBackColor = False
+        '
+        'btnClose
+        '
+        Me.btnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(154, Byte), Integer))
+        Me.btnClose.FlatAppearance.BorderSize = 0
+        Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
+        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClose.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.Location = New System.Drawing.Point(992, 0)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(32, 24)
+        Me.btnClose.TabIndex = 2
+        Me.btnClose.Text = "X"
+        Me.btnClose.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(448, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(157, 24)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Quản lý nhà sách"
         '
         'frmMain
         '

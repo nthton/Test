@@ -202,4 +202,9 @@
         Panel4.Controls.Clear()
         Panel4.Controls.Add(New ucHoaDon)
     End Sub
+
+    Private Sub btnPhieuNhapSach_Click(sender As Object, e As EventArgs) Handles btnPhieuNhapSach.Click
+        Panel4.Controls.Clear()
+        Panel4.Controls.Add(New ucPhieuNhapSach)
+    End Sub
 End Class

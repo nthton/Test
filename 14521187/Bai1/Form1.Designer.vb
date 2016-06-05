@@ -50,6 +50,9 @@ Partial Class Form1
         '
         'groupBox1
         '
+        Me.groupBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.groupBox1.Controls.Add(Me.btnSua)
         Me.groupBox1.Controls.Add(Me.btnXoa)
         Me.groupBox1.Controls.Add(Me.btnThem)
@@ -138,7 +141,10 @@ Partial Class Form1
         '
         'txtMSSV
         '
-        Me.txtMSSV.Location = New System.Drawing.Point(154, 31)
+        Me.txtMSSV.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtMSSV.Location = New System.Drawing.Point(154, 34)
         Me.txtMSSV.Name = "txtMSSV"
         Me.txtMSSV.Size = New System.Drawing.Size(243, 26)
         Me.txtMSSV.TabIndex = 6
@@ -199,6 +205,9 @@ Partial Class Form1
         '
         'groupBox2
         '
+        Me.groupBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.groupBox2.Controls.Add(Me.dgvDSSV)
         Me.groupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.groupBox2.Location = New System.Drawing.Point(3, 191)
