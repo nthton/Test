@@ -23,22 +23,22 @@ Partial Class ucThongTinSach
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.GroupBox4.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -71,47 +71,70 @@ Partial Class ucThongTinSach
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Thông tin sách"
         '
-        'TextBox2
+        'Button3
         '
-        Me.TextBox2.Location = New System.Drawing.Point(90, 58)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(407, 26)
-        Me.TextBox2.TabIndex = 3
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Button3.Location = New System.Drawing.Point(756, 137)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(113, 29)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "Xóa"
+        Me.Button3.UseVisualStyleBackColor = True
         '
-        'Label3
+        'Button1
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(4, 30)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(69, 20)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Mã sách"
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Button1.Location = New System.Drawing.Point(596, 137)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(113, 29)
+        Me.Button1.TabIndex = 19
+        Me.Button1.Text = "Sửa"
+        Me.Button1.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'Button2
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(77, 184)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(877, 378)
-        Me.DataGridView1.TabIndex = 16
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Button2.Location = New System.Drawing.Point(426, 137)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(113, 29)
+        Me.Button2.TabIndex = 17
+        Me.Button2.Text = "Thêm"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'Label1
+        'ComboBox1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(4, 64)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(74, 20)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Tên sách"
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(693, 27)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(176, 28)
+        Me.ComboBox1.TabIndex = 18
         '
-        'TextBox1
+        'TextBox8
         '
-        Me.TextBox1.Location = New System.Drawing.Point(90, 24)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(407, 26)
-        Me.TextBox1.TabIndex = 5
+        Me.TextBox8.Location = New System.Drawing.Point(693, 61)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(176, 26)
+        Me.TextBox8.TabIndex = 17
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(693, 93)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(176, 26)
+        Me.TextBox7.TabIndex = 14
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(519, 96)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(150, 20)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Đơn giá bán dự kiến"
         '
         'TextBox3
         '
@@ -119,6 +142,16 @@ Partial Class ucThongTinSach
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(407, 26)
         Me.TextBox3.TabIndex = 9
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(519, 64)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(99, 20)
+        Me.Label6.TabIndex = 10
+        Me.Label6.Text = "Số lượng tồn"
         '
         'Label2
         '
@@ -140,80 +173,47 @@ Partial Class ucThongTinSach
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Tác giả"
         '
-        'Label5
+        'TextBox1
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(519, 96)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(150, 20)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "Đơn giá bán dự kiến"
+        Me.TextBox1.Location = New System.Drawing.Point(90, 24)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(407, 26)
+        Me.TextBox1.TabIndex = 5
         '
-        'Label6
+        'Label1
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(519, 64)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(99, 20)
-        Me.Label6.TabIndex = 10
-        Me.Label6.Text = "Số lượng tồn"
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(4, 64)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(74, 20)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Tên sách"
         '
-        'TextBox7
+        'TextBox2
         '
-        Me.TextBox7.Location = New System.Drawing.Point(693, 93)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(176, 26)
-        Me.TextBox7.TabIndex = 14
+        Me.TextBox2.Location = New System.Drawing.Point(90, 58)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(407, 26)
+        Me.TextBox2.TabIndex = 3
         '
-        'TextBox8
+        'Label3
         '
-        Me.TextBox8.Location = New System.Drawing.Point(693, 61)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(176, 26)
-        Me.TextBox8.TabIndex = 17
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(4, 30)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(69, 20)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Mã sách"
         '
-        'ComboBox1
+        'DataGridView1
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(693, 27)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(176, 28)
-        Me.ComboBox1.TabIndex = 18
-        '
-        'Button2
-        '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(426, 137)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 29)
-        Me.Button2.TabIndex = 17
-        Me.Button2.Text = "Thêm"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(596, 137)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 29)
-        Me.Button1.TabIndex = 19
-        Me.Button1.Text = "Sửa"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(756, 137)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(113, 29)
-        Me.Button3.TabIndex = 20
-        Me.Button3.Text = "Xóa"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(75, 201)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(877, 416)
+        Me.DataGridView1.TabIndex = 16
         '
         'ucThongTinSach
         '

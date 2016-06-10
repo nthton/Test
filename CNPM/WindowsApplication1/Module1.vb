@@ -1,6 +1,6 @@
 ﻿Imports System.Data.OleDb
 Module LT_BANG
-    Public Chuoi_ket_noi As String = "Provider=Microsoft.Jet.OLEDB.4.0 ; Data Source = C:\Users\Ton\Documents\GitHub\Test\CNPM\WindowsApplication1\bin\Debug\QLNS.mdb"
+    Public Chuoi_ket_noi As String = "Provider=Microsoft.Jet.OLEDB.4.0 ; Data Source = QLNS.mdb"
     Public Function DOC(ByVal Chuoi_lenh As String) As DataTable
         Dim kq As New DataTable
         Dim Bo_thich_ung As New OleDbDataAdapter(Chuoi_lenh, Chuoi_ket_noi)

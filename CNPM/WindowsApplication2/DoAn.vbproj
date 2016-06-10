@@ -106,10 +106,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMain.vb">
+    <Compile Include="User Controls\frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.vb">
+    <Compile Include="User Controls\frmMain.Designer.vb">
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -134,57 +134,57 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ucBaoCaoNo.Designer.vb">
+    <Compile Include="User Controls\ucBaoCaoNo.Designer.vb">
       <DependentUpon>ucBaoCaoNo.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucBaoCaoNo.vb">
+    <Compile Include="User Controls\ucBaoCaoNo.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucBaoCaoTon.Designer.vb">
+    <Compile Include="User Controls\ucBaoCaoTon.Designer.vb">
       <DependentUpon>ucBaoCaoTon.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucBaoCaoTon.vb">
+    <Compile Include="User Controls\ucBaoCaoTon.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucHoaDon.Designer.vb">
+    <Compile Include="User Controls\ucHoaDon.Designer.vb">
       <DependentUpon>ucHoaDon.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucHoaDon.vb">
+    <Compile Include="User Controls\ucHoaDon.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucPhieuNhapSach.Designer.vb">
+    <Compile Include="User Controls\ucPhieuNhapSach.Designer.vb">
       <DependentUpon>ucPhieuNhapSach.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucPhieuNhapSach.vb">
+    <Compile Include="User Controls\ucPhieuNhapSach.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucPhieuThuTien.Designer.vb">
+    <Compile Include="User Controls\ucPhieuThuTien.Designer.vb">
       <DependentUpon>ucPhieuThuTien.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucPhieuThuTien.vb">
+    <Compile Include="User Controls\ucPhieuThuTien.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuyDinh.Designer.vb">
+    <Compile Include="User Controls\ucQuyDinh.Designer.vb">
       <DependentUpon>ucQuyDinh.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucQuyDinh.vb">
+    <Compile Include="User Controls\ucQuyDinh.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucThongTinKhachHang.Designer.vb">
+    <Compile Include="User Controls\ucThongTinKhachHang.Designer.vb">
       <DependentUpon>ucThongTinKhachHang.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucThongTinKhachHang.vb">
+    <Compile Include="User Controls\ucThongTinKhachHang.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucThongTinSach.Designer.vb">
+    <Compile Include="User Controls\ucThongTinSach.Designer.vb">
       <DependentUpon>ucThongTinSach.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucThongTinSach.vb">
+    <Compile Include="User Controls\ucThongTinSach.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmMain.resx">
+    <EmbeddedResource Include="User Controls\frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
@@ -196,28 +196,28 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucBaoCaoNo.resx">
+    <EmbeddedResource Include="User Controls\ucBaoCaoNo.resx">
       <DependentUpon>ucBaoCaoNo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucBaoCaoTon.resx">
+    <EmbeddedResource Include="User Controls\ucBaoCaoTon.resx">
       <DependentUpon>ucBaoCaoTon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucHoaDon.resx">
+    <EmbeddedResource Include="User Controls\ucHoaDon.resx">
       <DependentUpon>ucHoaDon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucPhieuNhapSach.resx">
+    <EmbeddedResource Include="User Controls\ucPhieuNhapSach.resx">
       <DependentUpon>ucPhieuNhapSach.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucPhieuThuTien.resx">
+    <EmbeddedResource Include="User Controls\ucPhieuThuTien.resx">
       <DependentUpon>ucPhieuThuTien.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQuyDinh.resx">
+    <EmbeddedResource Include="User Controls\ucQuyDinh.resx">
       <DependentUpon>ucQuyDinh.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucThongTinKhachHang.resx">
+    <EmbeddedResource Include="User Controls\ucThongTinKhachHang.resx">
       <DependentUpon>ucThongTinKhachHang.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucThongTinSach.resx">
+    <EmbeddedResource Include="User Controls\ucThongTinSach.resx">
       <DependentUpon>ucThongTinSach.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -274,9 +274,7 @@
   <ItemGroup>
     <None Include="Resources\Saving Book-48.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="User Controls\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

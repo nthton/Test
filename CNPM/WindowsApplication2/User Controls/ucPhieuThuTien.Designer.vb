@@ -105,11 +105,11 @@ Partial Class ucPhieuThuTien
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(495, 174)
+        Me.Button1.Location = New System.Drawing.Point(486, 174)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 29)
+        Me.Button1.Size = New System.Drawing.Size(122, 29)
         Me.Button1.TabIndex = 26
-        Me.Button1.Text = "Lập hóa đơn"
+        Me.Button1.Text = "Lập phiếu thu"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'DateTimePicker1

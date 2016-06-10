@@ -202,6 +202,7 @@ Public Class Form1
         Return Chuoi_loi
     End Function
     Private Sub btnSua_Click(sender As Object, e As EventArgs) Handles btnSua.Click
+
         Dim Chuoi_loi As String = Kiem_tra_sua()
 
         If btnSua.Text = "Sửa" Then
@@ -267,7 +268,7 @@ Public Class Form1
                 Dim table As DataTable = sv.Table
                 If LT_BANG.GHI(table, "SinhVien") > 0 Then
                     Textbox_clear()
-                    MsgBox("Xóa thành công!!!", MsgBoxStyle.Exclamation, "Thông báo")
+                    MsgBox("Xóa thành công]]!!!", MsgBoxStyle.Exclamation, "Thông báo")
                 End If
                 'Cập nhật hiển thị dgv
                 dgvDSSV.DataSource = table
@@ -294,7 +295,8 @@ Public Class Form1
             MsgBox("Chưa nhập thông tin tìm kiếm", MsgBoxStyle.Exclamation, "Thông báo")
         Else
             Dim table As New DataTable
-            table = LT_BANG.DOC("select * from SinhVien where Instr(Ho_ten,'" & txtTimKiem.Text & "') > 0 or Instr(MSSV,'" & txtTimKiem.Text & "')>0")
+            'table = LT_BANG.DOC("select * from SinhVien where Instr(Ho_ten,'" & txtTimKiem.Text & "') > 0 or Instr(MSSV,'" & txtTimKiem.Text & "')>0")
+            table = LT_BANG.DOC("select * from SinhVien where Instr(Ho_ten,'" & txtTimKiem.Text & "') > 0")
             dgvDSSV.DataSource = table
         End If
     End Sub

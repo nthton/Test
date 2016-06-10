@@ -67,7 +67,7 @@ Partial Class frmMain
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1024, 768)
+        Me.Panel1.Size = New System.Drawing.Size(1024, 730)
         Me.Panel1.TabIndex = 0
         '
         'Panel4
@@ -489,7 +489,7 @@ Partial Class frmMain
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.ClientSize = New System.Drawing.Size(1024, 730)
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.Color.White
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
